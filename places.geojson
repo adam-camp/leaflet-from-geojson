@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Local Harvest",
+        "Review": "5 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.25955200195312,
+          38.603456675921755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "McGrath",
+        "Review": "2 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.35362243652344,
+          38.618479949960594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Restaurant": "Tower Tee",
+        "Review": "4 Star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.33096313476562,
+          38.57017966100314
+        ]
+      }
+    }
+  ]
+}
