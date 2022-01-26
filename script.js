@@ -121,7 +121,7 @@ L.geoJSON(myLines, {
     style: myStyle
 }).addTo(map);
 
-var states = {
+var Parks = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -203,7 +203,7 @@ var states = {
   ]
 }
 
-L.geoJSON(states, {
+L.geoJSON(Parks, {
     style: function(feature) {
         switch (feature.properties.["Has Baseball Field"]) {
             case 'Yes': return {color: "#990000"};
